@@ -1,6 +1,7 @@
 .DS_Store
 node_modules
 /dist
+dist_electron
 
 
 # local env files
@@ -15,9 +16,13 @@ pnpm-debug.log*
 
 # Editor directories and files
 .idea
+.github
 .vscode
 *.suo
 *.ntvs*
 *.njsproj
 *.sln
 *.sw?
+
+#Electron-builder output
+/dist_electron
